@@ -1,0 +1,129 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 543, 5354, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.27.1.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.1.0
+Dialog DLL:      DARMCM1.DLL V1.19.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TARMCM1.DLL V1.14.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Lenovo\Desktop\yichiproject\ethbaojingqi3\MDK-ARM\ethbaojingqi.uvprojx
+Project File Date:  12/03/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'ethbaojingqi'
+assembling startup_stm32g030xx.s...
+compiling stm32g0xx_hal_msp.c...
+compiling dma.c...
+compiling main.c...
+../Src/main.c(102): warning:  #223-D: function "ETH_Rst" declared implicitly
+      ETH_Rst();
+../Src/main.c(103): warning:  #223-D: function "ETH_DMA_START" declared implicitly
+     ETH_DMA_START();
+../Src/main.c(104): warning:  #223-D: function "eth_at_open" declared implicitly
+     eth_at_open();
+../Src/main.c(110): warning:  #223-D: function "eth_ring_net_in" declared implicitly
+     while( eth_ring_net_in()!=1)   //接入服务器
+../Src/main.c(131): warning:  #223-D: function "run_system_task" declared implicitly
+       run_system_task();
+../Src/main.c: 5 warnings, 0 errors
+compiling gpio.c...
+compiling stm32g0xx_it.c...
+compiling stm32g0xx_hal_timebase_tim.c...
+compiling usart.c...
+compiling stm32g0xx_hal_uart_ex.c...
+compiling stm32g0xx_hal_gpio.c...
+compiling stm32g0xx_ll_rcc.c...
+compiling stm32g0xx_hal_rcc.c...
+compiling stm32g0xx_hal_uart.c...
+compiling stm32g0xx_hal_tim_ex.c...
+compiling stm32g0xx_hal_rcc_ex.c...
+compiling stm32g0xx_hal_tim.c...
+compiling stm32g0xx_hal_flash_ex.c...
+compiling stm32g0xx_hal_dma.c...
+compiling stm32g0xx_hal_dma_ex.c...
+compiling stm32g0xx_hal_flash.c...
+compiling stm32g0xx_hal_pwr.c...
+compiling stm32g0xx_hal_pwr_ex.c...
+compiling stm32g0xx_hal_cortex.c...
+compiling system_stm32g0xx.c...
+compiling stm32g0xx_hal.c...
+compiling key_hal.c...
+..\bsp\key_hal.c(113): warning:  #940-D: missing return statement at end of non-void function "get_key1" 
+  }
+..\bsp\key_hal.c: 1 warning, 0 errors
+compiling speak_hal.c...
+compiling stm32g0xx_hal_exti.c...
+compiling DEBUG_USART_HAL.c...
+..\bsp\DEBUG_USART_HAL.c(9): warning:  #1-D: last line of file ends without a newline
+  }
+..\bsp\DEBUG_USART_HAL.c: 1 warning, 0 errors
+compiling ether_hal.c...
+compiling eth_ring_com.c...
+compiling main_app.c...
+..\APP_TASK\main_app.c(171): warning:  #223-D: function "Line_1A_WT588S" declared implicitly
+                                           Line_1A_WT588S(6);//			获取地址成功     
+..\APP_TASK\main_app.c(262): warning:  #223-D: function "Line_1A_WT588S" declared implicitly
+  														              Line_1A_WT588S(14);//			开始布防   
+..\APP_TASK\main_app.c(267): warning:  #111-D: statement is unreachable
+  														       break;
+..\APP_TASK\main_app.c(279): warning:  #940-D: missing return statement at end of non-void function "eth_ring_net_in" 
+  }
+..\APP_TASK\main_app.c(135): warning:  #550-D: variable "net_ta"  was set but never used
+  	    uint8_t  net_ta=0;
+..\APP_TASK\main_app.c(288): warning:  #223-D: function "get_key1" declared implicitly
+  		if(get_key1()==0)
+..\APP_TASK\main_app.c(295): warning:  #223-D: function "Line_1A_WT588S" declared implicitly
+  					              Line_1A_WT588S(10);//
+..\APP_TASK\main_app.c(314): warning:  #111-D: statement is unreachable
+  		        break;			      
+..\APP_TASK\main_app.c(328): warning:  #223-D: function "Line_1A_WT588S" declared implicitly
+  			  Line_1A_WT588S(11);//消警成功	
+..\APP_TASK\main_app.c(357): warning:  #1-D: last line of file ends without a newline
+  }
+..\APP_TASK\main_app.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=11224 RO-data=320 RW-data=72 ZI-data=2952  
+FromELF: creating hex file...
+"ethbaojingqi\ethbaojingqi.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32G0xx_DFP.1.2.0.pack
+                Keil.STM32G0xx_DFP.1.2.0
+                STMicroelectronics STM32G0 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_ethbaojingqi
+  D:\keilpack\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  D:\keilpack\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+Build Time Elapsed:  00:00:24
+</pre>
+</body>
+</html>

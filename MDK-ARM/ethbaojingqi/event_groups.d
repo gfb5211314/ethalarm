@@ -1,0 +1,15 @@
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+ethbaojingqi\event_groups.o: D:\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ethbaojingqi\event_groups.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+ethbaojingqi\event_groups.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+ethbaojingqi\event_groups.o: ../Inc/FreeRTOSConfig.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ethbaojingqi\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

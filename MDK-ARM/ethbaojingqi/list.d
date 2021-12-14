@@ -1,0 +1,12 @@
+ethbaojingqi\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+ethbaojingqi\list.o: D:\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+ethbaojingqi\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ethbaojingqi\list.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+ethbaojingqi\list.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+ethbaojingqi\list.o: ../Inc/FreeRTOSConfig.h
+ethbaojingqi\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ethbaojingqi\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ethbaojingqi\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ethbaojingqi\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
+ethbaojingqi\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ethbaojingqi\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

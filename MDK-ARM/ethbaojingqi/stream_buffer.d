@@ -1,0 +1,14 @@
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+ethbaojingqi\stream_buffer.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+ethbaojingqi\stream_buffer.o: D:\keil\ARM\ARMCC\Bin\..\include\string.h
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ethbaojingqi\stream_buffer.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+ethbaojingqi\stream_buffer.o: ../Inc/FreeRTOSConfig.h
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+ethbaojingqi\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h
